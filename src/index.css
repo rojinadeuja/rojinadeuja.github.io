@@ -5,9 +5,157 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fcfcfc;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr minmax(100px, 920px) 1fr;
+  grid-template-rows: 7vh minmax(100px, 83vh) 10vh; /* doing 78vh to account for that 1px row */
+  grid-template-areas:
+      ".  header ."
+      ".  main   ."
+      ".  footer .";
+  font-family: 'Roboto';
+}
+
+.header {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr minmax(240px, 200px) 1fr;
+  grid-template-areas: ". nav .";
+}
+
+.nav {
+  grid-area: nav;
+  height: 100%;
+}
+
+.main {
+  display: grid;
+  justify-items: center;
+  align-items: flex-start;
+  padding: 1em;
+}
+
+.main, .main-resume {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.nav-links,
+.footer-links {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-links {
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.footer-links {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.nav-link,
+.footer-link {
+    text-decoration: none;
+    color: #868e96;
+    font-size: 18px;
+}
+
+.nav-link:hover,
+.footer-link:hover{
+    color: #292b2c;
+}
+
+.connect-links{
+  padding-bottom: 1em;
+}
+
+.connect-link{
+  font-weight: bold;
+  text-decoration: none;
+  color: #577ca0;
+  padding-bottom: 0.5em;
+  border-bottom-style: solid;
+}
+
+.connect-link:hover{
+  font-weight: bold;
+  text-decoration: none;
+  color: #2a5886;
+  padding-bottom: 0.5em;
+  border-bottom-style: solid;
+}
+
+.large-text{
+  font-size: 26px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 720px) {
+  .large-text{
+    font-size: 22px;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr minmax(100px, 920px) 1fr;
+    grid-template-rows: 5vh minmax(100px, 85vh) 10vh; /* doing 78vh to account for that 1px row */
+    grid-template-areas:
+        ".  header ."
+        ".  main   ."
+        ".  footer .";
+    font-family: 'Roboto';
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .large-text{
+    font-size: 1em;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr minmax(100px, 920px) 1fr;
+    grid-template-rows: 5vh minmax(100px, 85vh) 10vh; /* doing 78vh to account for that 1px row */
+    grid-template-areas:
+        ".  header ."
+        ".  main   ."
+        ".  footer .";
+    font-family: 'Roboto';
+  }
+}
+
+#btn-download{
+  font-size: inherit;
+  font-family: inherit;
+  text-decoration: none;
+  border: solid;
+  background: none;
+  padding: 5px;
+  cursor: pointer;
+  color: #31465a;
+}
+
+#btn-download:hover{
+  color: #07131f;
+}
+
+#download{
+  display: flex;
+  justify-content: center;
 }
