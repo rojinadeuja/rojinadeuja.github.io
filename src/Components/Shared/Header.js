@@ -2,9 +2,9 @@ import React from 'react';
 
 const header = () => {
     return <nav className="nav">
-        <ul className="nav-links">
-            <li><a className="nav-link" href="/">Home</a></li>
-            <li><a className="nav-link" href="/">Resume</a></li>
+        <ul className="connect-links">
+            <li><a className="connect-link" href="https://www.linkedin.com/in/rojinadeuja/">LinkedIn</a></li>
+            <li><a className="connect-link" href="https://github.com/rojinadeuja">Github</a></li>
         </ul>
     </nav>
 }
