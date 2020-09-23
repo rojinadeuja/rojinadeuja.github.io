@@ -86,6 +86,16 @@ code {
   justify-content: center;
 }
 
+.large-text{
+  font-size: 1.5em;
+  text-align: justify;
+  color: #24313d;
+  text-transform: none;
+  opacity: 1.0;
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 5s;
+  }
+  
 @media only screen and (max-width: 768px) {
   .large-text{
     font-size: 1.5em;
@@ -129,16 +139,6 @@ code {
 strong{
   font-weight: 600;
 }
-
-.large-text{
-  font-size: 1.5em;
-  text-align: justify;
-  color: #24313d;
-  text-transform: none;
-  opacity: 1.0;
-  animation: fadeIn ease 10s;
-  -webkit-animation: fadeIn ease 5s;
-  }
   
   @keyframes fadeIn {
   0% {opacity:0;}
