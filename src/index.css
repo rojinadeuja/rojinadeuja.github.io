@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: #7092be url('paint_job.png') no-repeat center center fixed;
+    background: #7092be url('my-paint-job.png') no-repeat center center fixed;
     background-size: cover ; /*150% auto;*/
     position: fixed;
     padding: 0px;
@@ -67,7 +67,7 @@ a:hover{
     width: 400px;
     height: 540px;
     background: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 4px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -106,7 +106,7 @@ a:hover{
     display: block;
     text-align: center;
     background: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 .main-header{
