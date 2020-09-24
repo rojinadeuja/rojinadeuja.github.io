@@ -3,7 +3,7 @@ import React from 'react';
 const home = () => {
     return(
         <div>
-            <img id="motion-demo" src="my-paper-plane.png"/>    
+            <img id="fly-demo" alt="Korean Airlines Nepal to USA" src="my-paper-plane.png"/>    
             <div className="profile-card">
                 <header>
                     <h1>ROJINA DEUJA</h1>
