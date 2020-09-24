@@ -3,8 +3,11 @@ import React from 'react';
 const home = () => {
     return(
         <div>
-            <div className="header"><a href="https://www.linkedin.com/in/rojinadeuja/">Linkedin</a><a href="https://github.com/rojinadeuja">Github</a></div>
-    <div className="profile-card">
+            <div className="header">
+                <a href="https://www.linkedin.com/in/rojinadeuja/" target="_blank">Linkedin</a><a href="https://github.com/rojinadeuja" target="_blank">Github</a>
+            </div>     
+    <div className="profile-card" data-rotation="auto">
+        <img id="motion-demo" src="my-paper-plane.png" width="30px" height= "30px"/>
         <header>
             <h1>ROJINA DEUJA</h1>
             <h2>M.S. in Computer Science, University of Nebraska-Lincoln</h2>
@@ -21,9 +24,10 @@ const home = () => {
         <form id='download' method="get" action="assets/deuja_rojina_resume_2020.pdf" target="_blank">
             <button id='btn-download' type="submit"className="btn-download"><span style={{ paddingBottom: '0.3em', borderBottomStyle: 'solid' }}>View Resume</span></button>
         </form>
+        </div>
     </div>
-    </div>
-    <h1>I am new footer</h1>
+    <div className="footer"><p>Designed & Developed by Rojina Deuja | Inspired by <a href="https://codepen.io/VictoryDesign" target="_blank">David Jones</a></p></div>
+
     </div>)
 }
 

@@ -144,3 +144,44 @@ a:hover{
       text-align: left;
     }
   }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    /* font-size: 8px;
+    color: #30507a; */
+    padding-bottom: 10px;
+  }
+.footer p {
+    font-size: 15px;
+    color: #30507a;
+    float: left;
+    padding-left: 20px;
+  }
+.footer  a {
+    font-size: 15px;
+  }
+
+  #motion-demo {
+    offset-path: path('M 3.5 117 C 100.5 10 301.5 10 408.5 120');
+    /* 10 100= start points
+    427.5 110 = end point
+    'M 3.5 117 C 100.5 10 301.5 10 408.5 120
+     */
+    /* path('M10,100 C15,5 140, 180 140, 110'); */
+    /* path('M10,100 C15,5 490,5 490,100'); */
+    animation: move 2s 0s alternate infinite linear;
+    /* move 3000ms infinite alternate ease-in-out */
+  }
+  
+  @keyframes move {
+    0% {
+      offset-distance: 0%;
+    }
+    100% {
+      offset-distance: 100%;
+    }
+  }
