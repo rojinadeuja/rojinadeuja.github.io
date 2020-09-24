@@ -174,7 +174,7 @@ a:hover{
     width:100px;
     height: 100px;
     offset-path: path('M -200 620 C 50.5 100 601.5 10 1000 630');
-    animation: move 5s 0s alternate linear;
+    animation: move 15s 0s alternate linear;
     animation-fill-mode: forwards;
   }
   
