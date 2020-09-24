@@ -10,7 +10,7 @@ const home = () => {
         <div class="profile-bio">
         <p>In 2019, I travelled half-way acorss the world to pursue Computer Science in the USA. So far, so great! 
          <br/>I work as a Graduate Teaching Assitant facilitating courses related to Data Modeling and Software Engineering.
-         <br/>I love learning about the human brain, so I do my research on Machine Learning and listen to Podcasts. Invisibilia and Hidden Brain are my favorites!
+         <br/>I love learning about the human brain, so I do my research on Machine Learning and listen to podcasts. Invisibilia and Hidden Brain are my favorites!
          <br/><br/>
          <h3>I'm currently seeking Sofware Development Internship for Summer 2021.</h3>
          Lets get in touch &rarr;
