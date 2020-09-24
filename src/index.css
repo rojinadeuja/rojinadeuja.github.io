@@ -89,8 +89,7 @@ a:hover{
     width: auto;
     height: auto;
     display: block;
-    float: left;
-    border-right: none;
+    padding-top: 0px;
 }
 .profile-card header h1 {
     color: #2e64ab;
@@ -171,9 +170,9 @@ a:hover{
     position:fixed;
     width:100px;
     height: 100px;
-    offset-path: path('M 2 520 C 100.5 10 601.5 10 808.5 520');
-    animation: move 2s 0s alternate linear;
-    /* move 3000ms infinite alternate ease-in-out */
+    offset-path: path('M 2 620 C 100.5 100 601.5 10 759 630');
+    animation: move 5s 0s alternate linear;
+    animation-fill-mode: forwards;
   }
   
   @keyframes move {
