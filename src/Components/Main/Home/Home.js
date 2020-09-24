@@ -5,9 +5,9 @@ const home = () => {
         <div>
             <div className="header">
                 <a href="https://www.linkedin.com/in/rojinadeuja/" target="_blank">Linkedin</a><a href="https://github.com/rojinadeuja" target="_blank">Github</a>
-            </div>     
+            </div> 
+            <img id="motion-demo" src="my-paper-plane.png"/>    
     <div className="profile-card" data-rotation="auto">
-        <img id="motion-demo" src="my-paper-plane.png" width="30px" height= "30px"/>
         <header>
             <h1>ROJINA DEUJA</h1>
             <h2>M.S. in Computer Science, University of Nebraska-Lincoln</h2>
