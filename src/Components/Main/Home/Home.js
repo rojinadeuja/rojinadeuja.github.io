@@ -2,12 +2,14 @@ import React from 'react';
 
 const home = () => {
     return(
-    <div class="profile-card">
+        <div>
+            <div className="header"><a href="https://www.linkedin.com/in/rojinadeuja/">Linkedin</a><a href="https://github.com/rojinadeuja">Github</a></div>
+    <div className="profile-card">
         <header>
             <h1>ROJINA DEUJA</h1>
             <h2>M.S. in Computer Science, University of Nebraska-Lincoln</h2>
         </header>
-        <div class="profile-bio">
+        <div className="profile-bio">
         <p>In 2019, I travelled half-way acorss the world to pursue Computer Science in the USA. So far, so great! 
          <br/>I work as a Graduate Teaching Assitant facilitating courses related to Data Modeling and Software Engineering.
          <br/>I love learning about the human brain, so I do my research on Machine Learning and listen to podcasts. Invisibilia and Hidden Brain are my favorites!
@@ -20,6 +22,8 @@ const home = () => {
             <button id='btn-download' type="submit"className="btn-download"><span style={{ paddingBottom: '0.3em', borderBottomStyle: 'solid' }}>View Resume</span></button>
         </form>
     </div>
+    </div>
+    <h1>I am new footer</h1>
     </div>)
 }
 
