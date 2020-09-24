@@ -40,7 +40,8 @@ a {
 }
 
 a:hover{
-  color: rgb(45, 128, 107);
+  color: orange;
+  font-weight: bold;
 }
 
 .btn-download{
@@ -54,7 +55,8 @@ a:hover{
 }
 
 .btn-download:hover{
-  color: rgb(45, 128, 107);
+  color: orange;
+  font-weight: bold;
 }
 
 .download{

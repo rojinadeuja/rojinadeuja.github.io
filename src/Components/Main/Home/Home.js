@@ -3,9 +3,9 @@ import React from 'react';
 const home = () => {
     return(
         <div>
-            {/* <div className="main-header">
+            <div className="main-header">
                 <a href="https://www.linkedin.com/in/rojinadeuja/" target="_blank">Linkedin</a><a href="https://github.com/rojinadeuja" target="_blank">Github</a>
-            </div>  */}
+            </div> 
             <img id="motion-demo" src="my-paper-plane.png"/>    
             <div className="profile-card">
                 <header>
@@ -20,9 +20,9 @@ const home = () => {
                     </form>
                 </div>
             </div>
-            {/* <div className="main-footer">
-                <p>Designed & Developed by Rojina Deuja | Inspired by <a href="https://codepen.io/VictoryDesign" target="_blank">David Jones</a></p>
-            </div> */}
+            <div className="main-footer">
+                <p>Designed &amp; Developed by Rojina Deuja | Inspired by <a href="https://codepen.io/VictoryDesign" target="_blank">David Jones</a></p>
+            </div>
     </div>
     )
 }
