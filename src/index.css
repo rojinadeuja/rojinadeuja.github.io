@@ -16,11 +16,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-weight: 400;
     margin: 0px 0px 0px 0px;
-}
-h1 {
-    font-size: 24px;
 }
 h2 {
     font-size: 16px;
@@ -84,7 +80,7 @@ a:hover{
     border-right: 2px dashed #EEEEEE; */
     background: #FFFFFF;
     color: #000000;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     text-align: center;
     width: auto;
     height: auto;
@@ -113,13 +109,13 @@ a:hover{
     border-radius: 10px;
 }
 
-.header{
+.main-header{
     overflow: hidden;
     padding: 20px 10px;
     float: right;
 }
 
-.header a {
+.main-header a {
     margin: 0px;
     text-align: center;
     font-size: 20px;
@@ -132,19 +128,19 @@ a:hover{
     border-radius: 4px;
   }
 
-.header a:hover {
+.main-header a:hover {
     background-color: #ffffff;
   }
 
 @media screen and (max-width: 500px) {
-    .header a {
+    .main-header a {
       float: right;
       display: block;
       text-align: left;
     }
   }
 
-.footer {
+.main-footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -154,23 +150,23 @@ a:hover{
     color: #30507a; */
     padding-bottom: 10px;
   }
-.footer p {
+.main-footer p {
     font-size: 15px;
     color: #30507a;
     float: left;
     padding-left: 20px;
   }
-.footer  a {
+.main-footer  a {
     font-size: 15px;
   }
 
-  #motion-demo {
+#motion-demo {
     top: -10%;
     left: 30%;
     position:fixed;
     width:100px;
     height: 100px;
-    offset-path: path('M 2 620 C 100.5 100 601.5 10 759 630');
+    offset-path: path('M -200 620 C 50.5 100 601.5 10 1000 630');
     animation: move 5s 0s alternate linear;
     animation-fill-mode: forwards;
   }
@@ -181,5 +177,6 @@ a:hover{
     }
     100% {
       offset-distance: 100%;
+      opacity: 0;
     }
   }
