@@ -1,6 +1,4 @@
 import React from 'react';
-import './Home.css';
-import Background from './paint_job.png'
 
 const home = () => {
     return <div>
