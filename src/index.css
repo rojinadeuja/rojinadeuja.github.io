@@ -148,8 +148,6 @@ a:hover{
     bottom: 0;
     width: 100%;
     text-align: center;
-    /* font-size: 8px;
-    color: #30507a; */
     padding-bottom: 10px;
   }
 .main-footer p {
@@ -161,6 +159,13 @@ a:hover{
 .main-footer  a {
     font-size: 15px;
   }
+
+.large-text{
+  color: #30507a;
+  font-size: 23px;
+  font-weight: 600;
+  }
+
 
 #fly-demo {
     top: -10%;
