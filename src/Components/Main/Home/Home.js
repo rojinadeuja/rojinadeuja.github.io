@@ -12,9 +12,9 @@ const home = () => {
                 <div className="profile-bio">
                     <p><span className="large-text">In 2019,</span> I travelled half-way acorss the world to pursue Computer Science in the USA. So far, so great!<br/>I work as a Graduate Teaching Assitant facilitating courses related to Data Modeling and Software Engineering.<br/>I love learning about the human brain, so I do my research on Machine Learning and listen to podcasts. Invisibilia and Hidden Brain are my favorites!<br/><br/>
                     <h3>I'm currently seeking Sofware Development Internship opportunity for Summer 2021. </h3>Lets get in touch &rarr; <a href="mailto: rojinadeuja33g@gmail.com"> Email</a></p><br/>
-                    <form id='download' method="get" action="docs/deuja_rojina_resume.pdf" target="_blank" rel="noopener noreferrer">
-                        <button id='btn-download' type="submit"className="btn-download"><span style={{ paddingBottom: '0.3em', borderBottomStyle: 'solid' }}>View Resume</span></button>
-                    </form>
+                    <a href="/docs/deuja_rojina_resume.pdf" target="_blank" rel="noopener noreferrer"> 
+                        <button id='btn-download' type="submit" className="btn-download"><span style={{ paddingBottom: '0.3em', borderBottomStyle: 'solid' }}>View Resume</span></button>
+                    </a> 
                 </div>
             </div>
             
