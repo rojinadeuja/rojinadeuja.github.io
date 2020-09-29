@@ -149,6 +149,10 @@ a:hover{
     width: 100%;
     text-align: center;
     padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, auto) 1fr;
+    grid-column-gap: 5px;
+    justify-items: center;
   }
 .main-footer p {
     font-size: 15px;
@@ -160,11 +164,17 @@ a:hover{
     font-size: 15px;
   }
 
+.footer-chevron{
+  font-size: 48px;
+  color:white;
+  opacity: 50%;
+}
+
 .large-text{
   color: #30507a;
   font-size: 23px;
   font-weight: 600;
-  }
+}
 
 
 #fly-demo {
