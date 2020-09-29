@@ -1,8 +1,8 @@
-Hi, this is my personal website. The website only contains a brief intro right now. I will be adding more components and functionalities to the page I go on.
+**Hi, this is my personal website. The website only contains a brief intro right now. I will be adding more components and functionalities to the page as I go on.**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I used React so that I have a simple, modular and easily scalable personal website. I am still learning React so please be patient with any inconsitencies. As they say "A website is never really done", I will be adding frequent changes and updates to this repo.
+**This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I used React so that I have a simple, modular and easily scalable personal website. I am still learning React so please be patient with any inconsitencies. As they say "A website is never really done", I will be adding frequent changes and updates to this repo.**
 
-This application is hosted at: https://rojinadeuja.github.io/
+**This application is hosted at: https://rojinadeuja.github.io/**
 
 ## Available Scripts
 
