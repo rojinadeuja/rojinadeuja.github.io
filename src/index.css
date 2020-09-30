@@ -149,10 +149,10 @@ a:hover{
     width: 100%;
     text-align: center;
     padding-bottom: 10px;
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr repeat(3, auto) 1fr;
     grid-column-gap: 5px;
-    justify-items: center;
+    justify-items: center; */
   }
 .main-footer p {
     font-size: 15px;
