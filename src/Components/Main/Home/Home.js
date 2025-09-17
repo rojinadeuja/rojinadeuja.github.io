@@ -7,17 +7,15 @@ const home = () => {
             <div className="profile-card">
                 <header>
                     <h1>ROJINA DEUJA</h1>
-                    <h2>M.S. in Computer Science, University of Nebraska-Lincoln</h2>
+                    <h2>Master of Science in Computer Science</h2>
                 </header>
                 <div className="profile-bio">
-                    <p><span className="large-text">In 2019,</span> I travelled half-way acorss the world to pursue Computer Science in the USA. So far, so great!<br/>I work as a Graduate Teaching Assistant facilitating courses related to Data Modeling and Software Engineering.<br/>I'm interested in studying mind and behavior, so I do my research on Machine Learning and listen to podcasts. Invisibilia and Hidden Brain are my favorites!<br/><br/>
-                    <h3>I'm expecting to graduate in December 2021 and will be looking for full-time roles.</h3>Lets get in touch &rarr; <a href="mailto: rojinadeuja33g@gmail.com"> Email</a></p><br/>
+                    <p><span className="large-text">In 2019,</span> I travelled half-way acorss the world to pursue Computer Science in the USA. So far, so great!<br/>I work at Salesforce as a MTS Software Engineer specializing in Platform and Cloud Engineering.<br/>Lets get in touch &rarr; <a href="mailto: rojinadeuja33g@gmail.com"> Email</a></p><br/>
                     <a href="/docs/deuja_rojina_resume.pdf" target="_blank" rel="noopener noreferrer"> 
                         <button id='btn-download' type="submit" className="btn-download"><span style={{ paddingBottom: '0.3em', borderBottomStyle: 'solid' }}>View Resume</span></button>
                     </a> 
                 </div>
             </div>
-            
     </div>
     )
 }
